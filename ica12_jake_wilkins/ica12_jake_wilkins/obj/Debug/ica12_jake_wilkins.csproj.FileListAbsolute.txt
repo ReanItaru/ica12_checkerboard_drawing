@@ -1,0 +1,11 @@
+C:\Users\Rean\Desktop\C# scripts\ica12_jake_wilkins\ica12_jake_wilkins\bin\Debug\ica12_jake_wilkins.exe.config
+C:\Users\Rean\Desktop\C# scripts\ica12_jake_wilkins\ica12_jake_wilkins\bin\Debug\ica12_jake_wilkins.exe
+C:\Users\Rean\Desktop\C# scripts\ica12_jake_wilkins\ica12_jake_wilkins\bin\Debug\ica12_jake_wilkins.pdb
+C:\Users\Rean\Desktop\C# scripts\ica12_jake_wilkins\ica12_jake_wilkins\bin\Debug\GDIDrawer.dll
+C:\Users\Rean\Desktop\C# scripts\ica12_jake_wilkins\ica12_jake_wilkins\bin\Debug\GDIDrawer.xml
+C:\Users\Rean\Desktop\C# scripts\ica12_jake_wilkins\ica12_jake_wilkins\obj\Debug\ica12_jake_wilkins.csprojResolveAssemblyReference.cache
+C:\Users\Rean\Desktop\C# scripts\ica12_jake_wilkins\ica12_jake_wilkins\obj\Debug\ica12_jake_wilkins.exe
+C:\Users\Rean\Desktop\C# scripts\ica12_jake_wilkins\ica12_jake_wilkins\obj\Debug\ica12_jake_wilkins.pdb
+C:\Users\Rean\Documents\GitHub\ica12_checkerboard_drawing\ica12_jake_wilkins\ica12_jake_wilkins\bin\Debug\ica12_jake_wilkins.exe.config
+C:\Users\Rean\Documents\GitHub\ica12_checkerboard_drawing\ica12_jake_wilkins\ica12_jake_wilkins\obj\Debug\ica12_jake_wilkins.exe
+C:\Users\Rean\Documents\GitHub\ica12_checkerboard_drawing\ica12_jake_wilkins\ica12_jake_wilkins\obj\Debug\ica12_jake_wilkins.pdb
