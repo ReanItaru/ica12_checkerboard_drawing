@@ -14,8 +14,8 @@ namespace ica12_jake_wilkins
         {
             //variables
             int squareSize = 0;     //input from user on square size, must be between 10-200
-            int squareOneX = 0;
-            int squareOneY = 0;
+            int squareX = 0;
+            int squareY = 0;
 
             //title
             Console.WriteLine("\t\t\tCheckerboard Draw");
@@ -39,34 +39,22 @@ namespace ica12_jake_wilkins
                 else if (600 % squareSize == 0 && 800 % squareSize == 0)
                 {
                     CDrawer gdi = new CDrawer();
-                    for (squareOneX = 0; squareOneX < 800;)
+                    for (squareY = 0; squareY < 600; squareY = squareY + squareSize)
                     {
-                        for (squareOneY = 0; squareOneY < 600;)
+                        for (squareX = 0; squareX < 800; squareX = squareX + squareSize)
                         {
-                            gdi.AddRectangle(squareOneX, squareOneY, squareSize, squareSize, Color.CornflowerBlue);
-                            switch (squareOneY % squareSize)
+                            if (((squareX / squareSize) + (squareY / squareSize)) % 2 == 0)
                             {
-                                case (1):
-                                    squareOneY = squareSize + squareOneY;
-                                    break;
-                                case (0):
-                                    squareOneY = squareSize + squareOneY;
-                                    break;
+                                gdi.AddRectangle(squareX, squareY, squareSize, squareSize, Color.CadetBlue);
                             }
-                        }
-                        gdi.AddRectangle(squareOneX, squareOneY, squareSize, squareSize, Color.Maroon);
-                        //squareOneX = (squareOneX + squareSize);
-                        switch (squareOneX % squareSize)
-                        {
-                            case (1):
-                                squareOneX = squareSize + squareOneX;
-                                break;
-                            case (0):
-                                squareOneX = squareSize + squareOneX;
-                                break;
+                            else
+                            {
+                                gdi.AddRectangle(squareX, squareY, squareSize, squareSize, Color.Maroon);
+                            }                                       
                         }
                     }
                 }
+
                 else
                 {
                     Console.WriteLine("\nThe value is not evenly divisable.");
